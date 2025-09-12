@@ -62,3 +62,9 @@ postcode: 27695
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  news:
+    output: false
+  activities:
+    output: false
