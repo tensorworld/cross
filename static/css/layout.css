@@ -43,6 +43,11 @@ a:focus {
     text-decoration: underline;
 }
 
+strong {
+    font-weight: bolder;
+    color: #c10d19;
+}
+
 p, address {
     margin-bottom: 0;
 }
