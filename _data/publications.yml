@@ -1,3 +1,21 @@
+- title: "Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory."
+  authors: "Bin Ma, Jie Ren, Shuangyan Yang, Benjamin Francis, Ehsan Ardestani, Min Si, and Dong Li."
+  details: '31st International Symposium on High-Performance Computer Architecture (acceptance rate: 21%). <time>2025</time>'
+- title: "cMPI: Using CXL Memory Sharing for MPI One-Sided and Two-Sided Inter-Node Communications."
+  authors: "Xi (Sherry) Wang, Bin Ma, Jongryool Kim, Byungil Koh, Hoshik Kim, and Dong Li."
+  details: '37th ACM/IEEE International Conference for High Performance Computing, Performance Measurement, Modeling and Tools (acceptance rate: 21.2%). <time>2025</time>'
+- title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
+  authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, Jiajia Li."
+  details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time> (accepted)'
+- title: "SymProp: Scaling Sparse Symmetric Tucker Decomposition via Symmetry Propagation."
+  authors: "Zecheng Li, Shruti Shivakumar, Jiajia Li, Ramakrishnan Kannan."
+  details: '2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2025</time> <a href="https://ieeexplore.ieee.org/abstract/document/11078398?casa_token=7SL7N6tjMZwAAAAA:Ncc5sU-AOmKEstruMfwhexiXdyUNQd9YWltvwmrFESIotNq6-cW8lg9JjlCPgUReJjPQV5U">[pdf]</a>'
+- title: "Swift: High-performance sparse tensor contraction for scientific applications."
+  authors: "Andrew Ensinger, Gabriel Kulp, Victor Agostinelli, Dennis Lyakhov, and Lizhong Chen."
+  details: 'arXiv preprint arXiv:2410.10094. <time>2024</time>'
+- title: "FLAASH: Flexible Accelerator Architecture for Sparse High-Order Tensor Contraction."
+  authors: "Gabriel Kulp, Andrew Ensinger, and Lizhong Chen."
+  details: 'arXiv preprint arXiv:2404.16317. <time>2024</time>'
 - title: "FlexMem: Adaptive Page Profiling and Migration for Tiered Memory."
   authors: "Dong Xu, Junhee Ryu, Jinho Baek, Kwangsik Shin, Pengfei Su, and Dong Li."
   details: '30th USENIX Annual Technical Conference. <time>2024</time> <a href="https://pasalabs.org/papers/2024/ATC24_FlexMem.pdf">[pdf]</a>'
