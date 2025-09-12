@@ -1,0 +1,27 @@
+- title: "FlexMem: Adaptive Page Profiling and Migration for Tiered Memory."
+  authors: "Dong Xu, Junhee Ryu, Jinho Baek, Kwangsik Shin, Pengfei Su, and Dong Li."
+  details: '30th USENIX Annual Technical Conference. <time>2024</time> <a href="https://pasalabs.org/papers/2024/ATC24_FlexMem.pdf">[pdf]</a>'
+- title: "MTM: Rethinking Memory Profiling and Migration for Multi-Tiered Large Memory Systems."
+  authors: "Jie Ren, Dong Xu, Junhee Ryu, Kwangsik Shin, Daewoo Kim, and Dong Li."
+  details: 'European Conference on Computer Systems. <time>2024</time> <a href="https://pasalabs.org/papers/2024/Eurosys24_M3_Camera_Ready.pdf">[pdf]</a>'
+- title: "Enabling Large Dynamic Neural Network Training with Learning-based Memory Management."
+  authors: "Jie Ren, Dong Xu, Shuangyan Yang, Jiacheng Zhao, Zhicheng Li, Christian Navasca, Chenxi Wang, Harry Xu, and Dong Li."
+  details: '30th International Symposium on High-Performance Computer Architecture (acceptance rate: 18%). <time>2024</time> <a href="https://pasalabs.org/papers/2024/hpca24_dynn-offload.pdf">[pdf]</a>'
+- title: "Efficient Tensor Offloading for Large Deep-Learning Model Training based on Compute Express Link."
+  authors: "Dong Xu, Yuan Feng, Kwangsik Shin, Daewoo Kim, Hyeran Jeon, and Dong Li."
+  details: '30th USENIX Annual Technical Conference (acceptance rate: 15.7%). <time>2024</time> <a href="https://pasalabs.org/papers/2024/tensor_offloading_cxl.pdf">[pdf]</a>'
+- title: "FASTEN: Fast GPU-accelerated Segmented Matrix Multiplication for Heterogenous Graph Neural Networks"
+  authors: "Keren Zhou, Karthik Ganapathi Subramanian, Po-Hsun Lin, Matthias Fey, Binqian Yin, Jiajia Li."
+  details: 'The 38th ACM International Conference on Supercomputing (ICS). <time>2024</time>'
+- title: "DiaQ: Efficient State-Vector Quantum Simulation"
+  authors: "Srikar Chundury, Jiajia Li, In-Saeng Suh and Frank Mueller."
+  details: 'ArXiv. <time>2024</time>'
+- title: "Parallel Sparse Tensor-times-Vector on Cerebras WSE-2"
+  authors: "Sai Krishna Teja Varm Manthena."
+  details: 'M.S. Thesis, North Carolina State University. <time>2024</time>'
+- title: "DiaQ: A Novel Quantum-Tailored Numerical Format"
+  authors: "Srikar Chundury."
+  details: 'M.S. Thesis, North Carolina State University. <time>2024</time>'
+- title: "A PEPS plugin for TNQVM"
+  authors: "Srikar Chundury, J. Lietz, E. A. C. Perez, A. Shehata, In-Saeng Suh and Frank Mueller."
+  details: 'IEEE International Conference on Quantum Computing and Engineering (QCE). <time>2023</time>'
