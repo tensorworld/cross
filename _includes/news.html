@@ -1,8 +1,11 @@
 <section class="twelve columns" id="news">
-    <h1>News</h1>
-        <article>
-        <ul>
-          <li><strong>Nov 17-22:</strong> NSF PPoSS CROSS Project PI Meeting at <a href="https://sc24.supercomputing.org/">SC'25</a></li>        
-        </ul>
-    </article>
+  <h1>News</h1>
+  <article>
+    <ul>
+      {% assign news_items = site.news | sort: 'date' | reverse %}
+      {% for item in news_items %}
+        <li>{{ item.content | markdownify | strip | replace: '<p>', '' | replace: '</p>', '' }}</li>
+      {% endfor %}
+    </ul>
+  </article>
 </section>
