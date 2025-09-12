@@ -1,21 +1,27 @@
 - title: "Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory."
   authors: "Bin Ma, Jie Ren, Shuangyan Yang, Benjamin Francis, Ehsan Ardestani, Min Si, and Dong Li."
-  details: '31st International Symposium on High-Performance Computer Architecture (acceptance rate: 21%). <time>2025</time>'
+  details: '31st International Symposium on High-Performance Computer Architecture. <time>2025</time>'
 - title: "cMPI: Using CXL Memory Sharing for MPI One-Sided and Two-Sided Inter-Node Communications."
   authors: "Xi (Sherry) Wang, Bin Ma, Jongryool Kim, Byungil Koh, Hoshik Kim, and Dong Li."
-  details: '37th ACM/IEEE International Conference for High Performance Computing, Performance Measurement, Modeling and Tools (acceptance rate: 21.2%). <time>2025</time>'
-- title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
-  authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, Jiajia Li."
-  details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time> (accepted)'
-- title: "SymProp: Scaling Sparse Symmetric Tucker Decomposition via Symmetry Propagation."
-  authors: "Zecheng Li, Shruti Shivakumar, Jiajia Li, Ramakrishnan Kannan."
-  details: '2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2025</time> <a href="https://ieeexplore.ieee.org/abstract/document/11078398?casa_token=7SL7N6tjMZwAAAAA:Ncc5sU-AOmKEstruMfwhexiXdyUNQd9YWltvwmrFESIotNq6-cW8lg9JjlCPgUReJjPQV5U">[pdf]</a>'
+  details: '37th ACM/IEEE International Conference for High Performance Computing, Performance Measurement, Modeling and Tools.<time>2025</time>'
+- title: "Performance Studies of Hypergraph Neural Networks (HGNNs) Using Tensor Representations."
+  authors: "Ahmed Taimoor."
+  details: 'M.S. Thesis, North Carolina State University.<time>2025</time>'
+- title: "CONQURE: A Co-Execution Environment for Quantum and Classical Resources."
+  authors: "Atulya Mahesh and Frank Mueller."
+  details: 'International Workshop on Integrating High-Performance and Quantum Computing. <time>2025</time>'
+- title: "Fully Parallelized BP Decoding for Quantum LDPC Codes Can Outperform BP-OSD."
+  authors: "Ming Wang, Ang Li, and Frank Mueller."
+  details: 'arXiv preprint arXiv:2507.00254.<time>2025</time>'
+- title: "OpenMP-Q: Quantum Task Offloading in OpenMP."
+  authors: "Swastik Mittal, Atulya Mahesh, and Frank Mueller."
+  details: 'International Workshop on OpenMP.<time>2025</time>'
 - title: "Swift: High-performance sparse tensor contraction for scientific applications."
   authors: "Andrew Ensinger, Gabriel Kulp, Victor Agostinelli, Dennis Lyakhov, and Lizhong Chen."
   details: 'arXiv preprint arXiv:2410.10094. <time>2024</time>'
 - title: "FLAASH: Flexible Accelerator Architecture for Sparse High-Order Tensor Contraction."
   authors: "Gabriel Kulp, Andrew Ensinger, and Lizhong Chen."
-  details: 'arXiv preprint arXiv:2404.16317. <time>2024</time>'
+  details: 'arXiv preprint arXiv:2404.16317. <time>2024</time>'  
 - title: "FlexMem: Adaptive Page Profiling and Migration for Tiered Memory."
   authors: "Dong Xu, Junhee Ryu, Jinho Baek, Kwangsik Shin, Pengfei Su, and Dong Li."
   details: '30th USENIX Annual Technical Conference. <time>2024</time> <a href="https://pasalabs.org/papers/2024/ATC24_FlexMem.pdf">[pdf]</a>'
