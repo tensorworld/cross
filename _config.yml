@@ -23,13 +23,10 @@ email_full: "mailto:jiajia.li@ncsu.edu"
 description: >- # this means to ignore newlines until "baseurl:"
   NSF CROSS Project
 
-#### Use this for GitHub host ###
+#### Check the localhost website: http://localhost:4000/cross/index.html ###
 baseurl: "/cross" # the subpath of your site, e.g. /blog
 url: "https://tensorworld.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-#### Use this for localhost website view ###
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://tensorworld.github.io/cross/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fruitfly1026
 github_username:  fruitfly1026
 
