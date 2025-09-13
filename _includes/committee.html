@@ -1,0 +1,18 @@
+<section class="twelve columns" id="committee">
+    <h1>Advisory Committee</h1>
+    <article>
+        <ul>
+            {% for member in site.data.committee %}
+            <li>
+                <header>
+                    {% if member.url %}
+                        <a href="{{ member.url }}">{{ member.name }}</a>
+                    {% else %}
+                        {{ member.name }}
+                    {% endif %}
+                </header>
+            </li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>
