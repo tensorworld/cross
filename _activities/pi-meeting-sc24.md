@@ -1,4 +1,4 @@
 ---
 date: 2024-11-17
 ---
-**Nov 17-22:** NSF PPoSS CROSS Project PI Meeting at [SC'24](https://sc24.supercomputing.org/)
+**Nov 17-22, 2024:** NSF PPoSS CROSS Project PI Meeting at [SC'24](https://sc24.supercomputing.org/)

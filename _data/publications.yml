@@ -1,3 +1,21 @@
+- title: "STTID: High-Performance Sparse Tensor-Train Interpolative Decomposition."
+  authors: "Zhaonan Meng, Miles Stoudenmire, Karl Pierce, Frank Mueller, and Jiajia Li."
+  details: 'IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2026</time>'
+- title: "Leveraging AI Ecosystem for Portable and Sustainable GPU Kernels in HPC."
+  authors: "Yanbo Zhao, Zhaonan Meng, Sai Krishna Teja Varma Manthena, Xu Liu, Ajay Panyala, and Jiajia Li."
+  details: 'ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming (ARRAY), co-located with PLDI. <time>2026</time>'
+- title: "SmartDispatch: Dynamic Substitution of NumPy-style APIs on Heterogenous CPU-GPU Systems."
+  authors: "Jinku Cui, Yueming Hao, Shuyin Jiao, Jiajia Li, and Xu Liu."
+  details: 'ACM International Conference on the Foundations of Software Engineering (FSE). <time>2026</time>'
+- title: "G-HEMP: Fast Multi-GPU Private Inference for Large-Scale GCNs with Homomorphic Encryption."
+  authors: "Ran Ran, Zhaoting Gong, Zhaowei Li, Xianting Lu, Jiajia Li, and Wujie Wen."
+  details: 'Conference on Machine Learning and Systems (MLSys). <time>2026</time>'
+- title: "Diagonal-Budgeted Trotterization for Efficient Quantum Hamiltonian Simulation."
+  authors: "Srikar Chundury, Blake Burgstahler, Jiajia Li, In-Saeng Suh, and Frank Mueller."
+  details: 'ACM International Conference on Supercomputing (ICS). <time>2026</time>'
+- title: "TypeCraft: A Lightweight Data Type Profiler with High Resolution."
+  authors: "Zecheng Li, Xu Liu, Namhyung Kim, Blake Jones, Alexey Alexandrov, and Jiajia Li."
+  details: 'USENIX Symposium on Operating Systems Design and Implementation (OSDI). <time>2026</time>'
 - title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
   authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li."
   details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time>'
