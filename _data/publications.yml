@@ -16,18 +16,6 @@
 - title: "TypeCraft: A Lightweight Data Type Profiler with High Resolution."
   authors: "Zecheng Li, Xu Liu, Namhyung Kim, Blake Jones, Alexey Alexandrov, and Jiajia Li."
   details: 'USENIX Symposium on Operating Systems Design and Implementation (OSDI). <time>2026</time>'
-- title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
-  authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li."
-  details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time>'
-- title: "Systolic Array Acceleration of Diagonal-Optimized Sparse-Sparse Matrix Multiplication for Efficient Quantum Simulation."
-  authors: "Yuchao Su, Srikar Chundury, Jiajia Li, and Frank Mueller."
-  details: 'ArXiv. <time>2025</time>'
-- title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
-  authors: "Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Sun, Rui Yang, Tekin Bicer, Dong Li and Yue Cheng."
-  details: 'ArXiv. <time>2025</time>'
-- title: "NeuronMM: High-Performance Matrix Multiplication for LLM Inference on AWS Trainium."
-  authors: "Dinghong Song, Jierui Xu, Weichu Yang, Pengfei Su and Dong Li."
-  details: 'ArXiv. <time>2025</time>'
 - title: "ChunkFlow: Communication-Aware Chunked Prefetching for Layerwise Offloading in Distributed Diffusion Transformer Inference."
   authors: "Han Meng, Danny Liu, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
@@ -40,6 +28,18 @@
 - title: "TierBPF: Page Migration Admission Control for Tiered Memory via eBPF."
   authors: "Xi Wang, Tal Zussman, Yuang Xu, Bin Ma, Asaf Cidon, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
+- title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
+  authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li."
+  details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time>'
+- title: "Systolic Array Acceleration of Diagonal-Optimized Sparse-Sparse Matrix Multiplication for Efficient Quantum Simulation."
+  authors: "Yuchao Su, Srikar Chundury, Jiajia Li, and Frank Mueller."
+  details: 'ArXiv. <time>2025</time>'
+- title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
+  authors: "Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Sun, Rui Yang, Tekin Bicer, Dong Li and Yue Cheng."
+  details: 'ArXiv. <time>2025</time>'
+- title: "NeuronMM: High-Performance Matrix Multiplication for LLM Inference on AWS Trainium."
+  authors: "Dinghong Song, Jierui Xu, Weichu Yang, Pengfei Su and Dong Li."
+  details: 'ArXiv. <time>2025</time>'
 - title: "Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory."
   authors: "Bin Ma, Jie Ren, Shuangyan Yang, Benjamin Francis, Ehsan Ardestani, Min Si, and Dong Li."
   details: '31st International Symposium on High-Performance Computer Architecture. <time>2025</time>'
