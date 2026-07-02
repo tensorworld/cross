@@ -1,3 +1,6 @@
+- title: "TIDES: Tiered Block-Sparse Tensor Contraction with Streaming Transpose on GPUs."
+  authors: "Zecheng Li, Sri Harshavardhan Reddy Deverapalli, Yanbo Zhao, Frank Mueller, Karl Pierce, and Jiajia Li."
+  details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2026</time>'
 - title: "STTID: High-Performance Sparse Tensor-Train Interpolative Decomposition."
   authors: "Zhaonan Meng, Miles Stoudenmire, Karl Pierce, Frank Mueller, and Jiajia Li."
   details: 'IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2026</time>'
