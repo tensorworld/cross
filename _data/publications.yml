@@ -19,6 +19,9 @@
 - title: "TypeCraft: A Lightweight Data Type Profiler with High Resolution."
   authors: "Zecheng Li, Xu Liu, Namhyung Kim, Blake Jones, Alexey Alexandrov, and Jiajia Li."
   details: 'USENIX Symposium on Operating Systems Design and Implementation (OSDI). <time>2026</time>'
+- title: "From 2^N to N^2: Tree-Free Scalable Sparse Symmetric Tucker Decomposition."
+  authors: "Yongseok Soh, Shruti Shivakumar, Jiajia Li, Jee Choi, and Ramakrishnan Kannan."
+  details: 'International Conference on Parallel Processing (ICPP). <time>2026</time>'
 - title: "ChunkFlow: Communication-Aware Chunked Prefetching for Layerwise Offloading in Distributed Diffusion Transformer Inference."
   authors: "Han Meng, Danny Liu, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
