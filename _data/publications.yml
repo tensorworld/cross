@@ -22,6 +22,9 @@
 - title: "From 2^N to N^2: Tree-Free Scalable Sparse Symmetric Tucker Decomposition."
   authors: "Yongseok Soh, Shruti Shivakumar, Jiajia Li, Jee Choi, and Ramakrishnan Kannan."
   details: 'International Conference on Parallel Processing (ICPP). <time>2026</time>'
+- title: "Recursive Sketched Interpolation: Efficient Hadamard Products of Tensor Trains."
+  authors: "Zhaonan Meng, Yuehaw Khoo, Jiajia Li, and E. Miles Stoudenmire."
+  details: 'ArXiv. <time>2026</time>'
 - title: "ChunkFlow: Communication-Aware Chunked Prefetching for Layerwise Offloading in Distributed Diffusion Transformer Inference."
   authors: "Han Meng, Danny Liu, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
