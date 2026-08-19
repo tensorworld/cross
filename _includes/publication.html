@@ -1,16 +1,68 @@
 <section class="twelve columns" id="publication">
     <h1>Publication</h1>
     <article>
-        <ul>
-            {% for pub in site.data.publications %}
-            <li>
-                <header>
-                    <p><em>{{ pub.title }}</em></p>
-                    <span>{{ pub.authors }}</span>
-                </header>
-                <p><em>{{ pub.details }}</em></p>
-            </li>
-            {% endfor %}
-        </ul>
+        <p class="pub-intro">Each paper is mapped onto the four CROSS research thrusts, with a cross-cutting <b>Application</b> view. A paper may belong to several thrusts; every card also carries its application and hardware tags. Click a thrust to collapse it.</p>
+
+        {% assign t1 = site.data.publications | where_exp: "p", "p.th contains 'T1'" %}
+        {% assign t2 = site.data.publications | where_exp: "p", "p.th contains 'T2'" %}
+        {% assign t3 = site.data.publications | where_exp: "p", "p.th contains 'T3'" %}
+        {% assign t4 = site.data.publications | where_exp: "p", "p.th contains 'T4'" %}
+        {% assign tapp = site.data.publications | where_exp: "p", "p.app" %}
+
+        <div class="thrusts">
+            <section class="thrust t1">
+                <div class="thead" onclick="this.closest('section').classList.toggle('collapsed')">
+                    <span class="chev">&#9656;</span>
+                    <span class="tnum">Thrust 1</span>
+                    <span class="tname">Memory Heterogeneity-Aware Representations and Data (Re-)Arrangement</span>
+                    <span class="badge">HPC</span>
+                </div>
+                <div class="count">{{ t1 | size }} paper{% if t1.size != 1 %}s{% endif %}</div>
+                <ul class="pubs">{% for pub in t1 %}{% include pub-card.html pub=pub %}{% endfor %}</ul>
+            </section>
+
+            <section class="thrust t2">
+                <div class="thead" onclick="this.closest('section').classList.toggle('collapsed')">
+                    <span class="chev">&#9656;</span>
+                    <span class="tnum">Thrust 2</span>
+                    <span class="tname">Balanced SpTC Algorithms with Smart Page Arrangement</span>
+                    <span class="badge">PL &amp; Compiler</span>
+                </div>
+                <div class="count">{{ t2 | size }} paper{% if t2.size != 1 %}s{% endif %}</div>
+                <ul class="pubs">{% for pub in t2 %}{% include pub-card.html pub=pub %}{% endfor %}</ul>
+            </section>
+
+            <section class="thrust t3">
+                <div class="thead" onclick="this.closest('section').classList.toggle('collapsed')">
+                    <span class="chev">&#9656;</span>
+                    <span class="tnum">Thrust 3</span>
+                    <span class="tname">Memoization and Intelligent Allocation to Reduce Computational Cost</span>
+                    <span class="badge">Theory &amp; Algorithms</span>
+                </div>
+                <div class="count">{{ t3 | size }} paper{% if t3.size != 1 %}s{% endif %}</div>
+                <ul class="pubs">{% for pub in t3 %}{% include pub-card.html pub=pub %}{% endfor %}</ul>
+            </section>
+
+            <section class="thrust t4">
+                <div class="thead" onclick="this.closest('section').classList.toggle('collapsed')">
+                    <span class="chev">&#9656;</span>
+                    <span class="tnum">Thrust 4</span>
+                    <span class="tname">Specialized Accelerator Architectures for Sparse Tensor Networks</span>
+                    <span class="badge">Computer Architecture</span>
+                </div>
+                <div class="count">{{ t4 | size }} paper{% if t4.size != 1 %}s{% endif %}</div>
+                <ul class="pubs">{% for pub in t4 %}{% include pub-card.html pub=pub %}{% endfor %}</ul>
+            </section>
+
+            <section class="thrust app">
+                <div class="thead" onclick="this.closest('section').classList.toggle('collapsed')">
+                    <span class="chev">&#9656;</span>
+                    <span class="tname">Application</span>
+                    <span class="badge">Scenarios</span>
+                </div>
+                <div class="count">{{ tapp | size }} paper{% if tapp.size != 1 %}s{% endif %}</div>
+                <ul class="pubs">{% for pub in tapp %}{% include pub-card.html pub=pub %}{% endfor %}</ul>
+            </section>
+        </div>
     </article>
 </section>

@@ -1,0 +1,12 @@
+<li class="pub">
+  <div class="pt">{{ include.pub.title }}</div>
+  <div class="pa">{{ include.pub.authors }}</div>
+  <div class="pv"><em>{{ include.pub.details }}</em></div>
+  {% if include.pub.th or include.pub.app or include.pub.hw %}
+  <div class="tagrow">
+    {% for t in include.pub.th %}<span class="tag th t{{ t | remove: 'T' }}">{{ t }}</span>{% endfor %}
+    {% for a in include.pub.app %}<span class="tag ap">{{ a }}</span>{% endfor %}
+    {% for h in include.pub.hw %}<span class="tag hwt">{{ h }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</li>

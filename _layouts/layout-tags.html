@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container accent-{{ page.nav_active }}">
     <!-- <header class="twelve columns">
         {{ site.name }}
     </header> -->
@@ -33,29 +33,20 @@
         <nav class="navigation">
             <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link" href="{{ site.baseurl }}/index.html" data-popover>Home</a>
+              <a class="navigation-link{% if page.nav_active == 'home' %} active{% endif %}" href="{{ site.baseurl }}/index.html">Home</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#activities" data-popover>Activities</a>
+              <a class="navigation-link{% if page.nav_active == 'activities' %} active{% endif %}" href="{{ site.baseurl }}/activities.html">Activities</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#projects" data-popover>Projects</a>
-            </li> 
-            <li class="navigation-item">
-              <a class="navigation-link" href="#publication" data-popover>Publication</a>
-            </li>            
-            <li class="navigation-item">
-              <a class="navigation-link" href="#description" data-popover>Description</a>
+              <a class="navigation-link{% if page.nav_active == 'publication' %} active{% endif %}" href="{{ site.baseurl }}/publication.html">Publication</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#team" data-popover>Team</a>
-            </li> 
+              <a class="navigation-link{% if page.nav_active == 'committee' %} active{% endif %}" href="{{ site.baseurl }}/committee.html">Advisory Committee</a>
+            </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#committee" data-popover>Advisory Committee</a>
-            </li> 
-            <li class="navigation-item">
-              <a class="navigation-link" href="#contact" data-popover>Contact</a>
-            </li> 
+              <a class="navigation-link{% if page.nav_active == 'grants' %} active{% endif %}" href="{{ site.baseurl }}/grants.html">Grants</a>
+            </li>
             </ul>
         </nav>
 
@@ -67,7 +58,7 @@
         <!-- </section> -->
     </header>
 
-    <div class="sixteen columns clearfix">
+    <div class="sixteen columns clearfix content accent-{{ page.nav_active }}">
 
         {{ content }}
 

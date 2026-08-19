@@ -1,102 +1,158 @@
 - title: "TIDES: Tiered Block-Sparse Tensor Contraction with Streaming Transpose on GPUs."
   authors: "Zecheng Li, Sri Harshavardhan Reddy Deverapalli, Yanbo Zhao, Frank Mueller, Karl Pierce, and Jiajia Li."
   details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2026</time>'
+  th: [T1, T2]
+  app: ["Quantum Chem/Physics"]
+  hw: ["GPU"]
 - title: "STTID: High-Performance Sparse Tensor-Train Interpolative Decomposition."
   authors: "Zhaonan Meng, Miles Stoudenmire, Karl Pierce, Frank Mueller, and Jiajia Li."
   details: 'IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2026</time>'
+  th: [T3]
 - title: "Leveraging AI Ecosystem for Portable and Sustainable GPU Kernels in HPC."
   authors: "Yanbo Zhao, Zhaonan Meng, Sai Krishna Teja Varma Manthena, Xu Liu, Ajay Panyala, and Jiajia Li."
   details: 'ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming (ARRAY), co-located with PLDI. <time>2026</time>'
+  th: [T2]
+  hw: ["GPU"]
 - title: "SmartDispatch: Dynamic Substitution of NumPy-style APIs on Heterogenous CPU-GPU Systems."
   authors: "Jinku Cui, Yueming Hao, Shuyin Jiao, Jiajia Li, and Xu Liu."
   details: 'ACM International Conference on the Foundations of Software Engineering (FSE). <time>2026</time>'
+  th: [T2]
+  hw: ["GPU"]
 - title: "G-HEMP: Fast Multi-GPU Private Inference for Large-Scale GCNs with Homomorphic Encryption."
   authors: "Ran Ran, Zhaoting Gong, Zhaowei Li, Xianting Lu, Jiajia Li, and Wujie Wen."
   details: 'Conference on Machine Learning and Systems (MLSys). <time>2026</time>'
+  app: ["Security"]
+  hw: ["GPU"]
 - title: "Diagonal-Budgeted Trotterization for Efficient Quantum Hamiltonian Simulation."
   authors: "Srikar Chundury, Blake Burgstahler, Jiajia Li, In-Saeng Suh, and Frank Mueller."
   details: 'ACM International Conference on Supercomputing (ICS). <time>2026</time>'
+  th: [T3]
+  app: ["Quantum Circuit Sim."]
 - title: "TypeCraft: A Lightweight Data Type Profiler with High Resolution."
   authors: "Zecheng Li, Xu Liu, Namhyung Kim, Blake Jones, Alexey Alexandrov, and Jiajia Li."
   details: 'USENIX Symposium on Operating Systems Design and Implementation (OSDI). <time>2026</time>'
+  th: [T2]
 - title: "From 2^N to N^2: Tree-Free Scalable Sparse Symmetric Tucker Decomposition."
   authors: "Yongseok Soh, Shruti Shivakumar, Jiajia Li, Jee Choi, and Ramakrishnan Kannan."
   details: 'International Conference on Parallel Processing (ICPP). <time>2026</time>'
+  th: [T3]
 - title: "Recursive Sketched Interpolation: Efficient Hadamard Products of Tensor Trains."
   authors: "Zhaonan Meng, Yuehaw Khoo, Jiajia Li, and E. Miles Stoudenmire."
   details: 'ArXiv. <time>2026</time>'
+  th: [T3]
+  app: ["Quantum Physics"]
 - title: "ChunkFlow: Communication-Aware Chunked Prefetching for Layerwise Offloading in Distributed Diffusion Transformer Inference."
   authors: "Han Meng, Danny Liu, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
+  app: ["AI/Diffusion"]
 - title: "Distributed Generative Inference of LLM at Internet Scales with Multi-Dimensional Communication Optimization."
   authors: "Jiu Chen, Shuangyan Yang, Xu Xiong, Hexiao Duan, Xinran Zhang, Jie Ren, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
+  app: ["AI/LLM"]
 - title: "CoCoDiff: Optimizing Collective Communications for Distributed Diffusion Transformer Inference Under Ulysses Sequence Parallelism."
   authors: "Bin Ma, Xingjian Ding, Tekin Bicer, Pengfei Su, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
+  app: ["AI/Diffusion"]
 - title: "TierBPF: Page Migration Admission Control for Tiered Memory via eBPF."
   authors: "Xi Wang, Tal Zussman, Yuang Xu, Bin Ma, Asaf Cidon, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
+  th: [T1, T2]
 - title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
   authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li."
   details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time>'
+  th: [T2]
+  hw: ["GPU"]
 - title: "Systolic Array Acceleration of Diagonal-Optimized Sparse-Sparse Matrix Multiplication for Efficient Quantum Simulation."
   authors: "Yuchao Su, Srikar Chundury, Jiajia Li, and Frank Mueller."
   details: 'ArXiv. <time>2025</time>'
+  th: [T4]
+  app: ["Quantum Circuit Sim."]
+  hw: ["Reconfig./Systolic"]
 - title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
   authors: "Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Sun, Rui Yang, Tekin Bicer, Dong Li and Yue Cheng."
   details: 'ArXiv. <time>2025</time>'
+  app: ["AI/LLM"]
 - title: "NeuronMM: High-Performance Matrix Multiplication for LLM Inference on AWS Trainium."
   authors: "Dinghong Song, Jierui Xu, Weichu Yang, Pengfei Su and Dong Li."
   details: 'ArXiv. <time>2025</time>'
+  app: ["AI/LLM"]
+  hw: ["AI Accelerator"]
 - title: "Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory."
   authors: "Bin Ma, Jie Ren, Shuangyan Yang, Benjamin Francis, Ehsan Ardestani, Min Si, and Dong Li."
   details: '31st International Symposium on High-Performance Computer Architecture. <time>2025</time>'
+  th: [T1, T3]
+  app: ["AI/DLRM"]
 - title: "cMPI: Using CXL Memory Sharing for MPI One-Sided and Two-Sided Inter-Node Communications."
   authors: "Xi (Sherry) Wang, Bin Ma, Jongryool Kim, Byungil Koh, Hoshik Kim, and Dong Li."
   details: '37th ACM/IEEE International Conference for High Performance Computing, Performance Measurement, Modeling and Tools.<time>2025</time>'
+  th: [T1]
 - title: "Performance Studies of Hypergraph Neural Networks (HGNNs) Using Tensor Representations."
   authors: "Ahmed Taimoor."
   details: 'M.S. Thesis, North Carolina State University.<time>2025</time>'
+  th: [T1]
+  app: ["AI/GNN"]
 - title: "CONQURE: A Co-Execution Environment for Quantum and Classical Resources."
   authors: "Atulya Mahesh and Frank Mueller."
   details: 'International Workshop on Integrating High-Performance and Quantum Computing. <time>2025</time>'
+  app: ["Quantum Circuit Sim."]
 - title: "Fully Parallelized BP Decoding for Quantum LDPC Codes Can Outperform BP-OSD."
   authors: "Ming Wang, Ang Li, and Frank Mueller."
   details: 'arXiv preprint arXiv:2507.00254.<time>2025</time>'
+  app: ["Quantum Circuit Sim."]
 - title: "OpenMP-Q: Quantum Task Offloading in OpenMP."
   authors: "Swastik Mittal, Atulya Mahesh, and Frank Mueller."
   details: 'International Workshop on OpenMP.<time>2025</time>'
+  app: ["Quantum Circuit Sim."]
 - title: "Swift: High-performance sparse tensor contraction for scientific applications."
   authors: "Andrew Ensinger, Gabriel Kulp, Victor Agostinelli, Dennis Lyakhov, and Lizhong Chen."
   details: 'arXiv preprint arXiv:2410.10094. <time>2024</time>'
+  th: [T2]
 - title: "FLAASH: Flexible Accelerator Architecture for Sparse High-Order Tensor Contraction."
   authors: "Gabriel Kulp, Andrew Ensinger, and Lizhong Chen."
-  details: 'arXiv preprint arXiv:2404.16317. <time>2024</time>'  
+  details: 'arXiv preprint arXiv:2404.16317. <time>2024</time>'
+  th: [T4, T2]
+  hw: ["Reconfig./Systolic"]
 - title: "FlexMem: Adaptive Page Profiling and Migration for Tiered Memory."
   authors: "Dong Xu, Junhee Ryu, Jinho Baek, Kwangsik Shin, Pengfei Su, and Dong Li."
   details: '30th USENIX Annual Technical Conference. <time>2024</time> <a href="https://pasalabs.org/papers/2024/ATC24_FlexMem.pdf">[pdf]</a>'
+  th: [T1, T2]
 - title: "MTM: Rethinking Memory Profiling and Migration for Multi-Tiered Large Memory Systems."
   authors: "Jie Ren, Dong Xu, Junhee Ryu, Kwangsik Shin, Daewoo Kim, and Dong Li."
   details: 'European Conference on Computer Systems. <time>2024</time> <a href="https://pasalabs.org/papers/2024/Eurosys24_M3_Camera_Ready.pdf">[pdf]</a>'
+  th: [T1, T2]
 - title: "Enabling Large Dynamic Neural Network Training with Learning-based Memory Management."
   authors: "Jie Ren, Dong Xu, Shuangyan Yang, Jiacheng Zhao, Zhicheng Li, Christian Navasca, Chenxi Wang, Harry Xu, and Dong Li."
   details: '30th International Symposium on High-Performance Computer Architecture (acceptance rate: 18%). <time>2024</time> <a href="https://pasalabs.org/papers/2024/hpca24_dynn-offload.pdf">[pdf]</a>'
+  th: [T1, T3]
+  app: ["AI/DL"]
 - title: "Efficient Tensor Offloading for Large Deep-Learning Model Training based on Compute Express Link."
   authors: "Dong Xu, Yuan Feng, Kwangsik Shin, Daewoo Kim, Hyeran Jeon, and Dong Li."
   details: '30th USENIX Annual Technical Conference (acceptance rate: 15.7%). <time>2024</time> <a href="https://pasalabs.org/papers/2024/tensor_offloading_cxl.pdf">[pdf]</a>'
+  th: [T1]
+  app: ["AI/DL"]
 - title: "FASTEN: Fast GPU-accelerated Segmented Matrix Multiplication for Heterogenous Graph Neural Networks"
   authors: "Keren Zhou, Karthik Ganapathi Subramanian, Po-Hsun Lin, Matthias Fey, Binqian Yin, Jiajia Li."
   details: 'The 38th ACM International Conference on Supercomputing (ICS). <time>2024</time>'
+  th: [T2]
+  app: ["AI/GNN"]
+  hw: ["GPU"]
 - title: "DiaQ: Efficient State-Vector Quantum Simulation"
   authors: "Srikar Chundury, Jiajia Li, In-Saeng Suh and Frank Mueller."
   details: 'ArXiv. <time>2024</time>'
+  th: [T1]
+  app: ["Quantum Circuit Sim."]
 - title: "Parallel Sparse Tensor-times-Vector on Cerebras WSE-2"
   authors: "Sai Krishna Teja Varm Manthena."
   details: 'M.S. Thesis, North Carolina State University. <time>2024</time>'
+  th: [T4, T2]
+  hw: ["Dataflow (Cerebras)"]
 - title: "DiaQ: A Novel Quantum-Tailored Numerical Format"
   authors: "Srikar Chundury."
   details: 'M.S. Thesis, North Carolina State University. <time>2024</time>'
+  th: [T1]
+  app: ["Quantum Circuit Sim."]
 - title: "A PEPS plugin for TNQVM"
   authors: "Srikar Chundury, J. Lietz, E. A. C. Perez, A. Shehata, In-Saeng Suh and Frank Mueller."
   details: 'IEEE International Conference on Quantum Computing and Engineering (QCE). <time>2023</time>'
+  th: [T3]
+  app: ["Quantum Circuit Sim."]

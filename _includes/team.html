@@ -1,18 +1,28 @@
 <section class="twelve columns" id="team">
     <h1>Team</h1>
     <article>
-        <ul>
-            {% for member in site.data.team %}
-            <li>
-                <header>
-                    {% if member.url %}
-                        <a href="{{ member.url }}">{{ member.name }}</a>
-                    {% else %}
-                        {{ member.name }}
-                    {% endif %}
-                </header>
-            </li>
-            {% endfor %}
-        </ul>
+        {% assign pis = site.data.team | where_exp: "m", "m.name contains 'Professor'" %}
+        {% assign students = site.data.team | where_exp: "m", "m.name contains 'student'" %}
+        {% assign schools = students | group_by_exp: "m", "m.name | split: '@' | last | strip" %}
+
+        <div class="team-block">
+            <h4 class="team-sub">Principal Investigators</h4>
+            <ul class="team-pis">
+                {% for m in pis %}
+                <li>{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="team-block">
+            <h4 class="team-sub">Students</h4>
+            <div class="team-schools">
+                {% for school in schools %}
+                <p class="school-row"><span class="school">{{ school.name }}</span>
+                    {% for m in school.items %}{% if m.url %}<a href="{{ m.url }}">{{ m.name | split: ',' | first | strip }}</a>{% else %}{{ m.name | split: ',' | first | strip }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+                </p>
+                {% endfor %}
+            </div>
+        </div>
     </article>
 </section>

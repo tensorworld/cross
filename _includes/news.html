@@ -1,11 +1,14 @@
-<section class="twelve columns" id="news">
-  <h1>News</h1>
+<section class="twelve columns" id="presentations">
+  <h1>Presentations</h1>
   <article>
-    <ul>
-      {% assign news_items = site.news | sort: 'date' | reverse %}
+    {% assign news_items = site.news | sort: 'date' | reverse %}
+    <ul class="news-list">
       {% for item in news_items %}
-        <li>{{ item.content | markdownify | strip | replace: '<p>', '' | replace: '</p>', '' }}</li>
+        <li{% if forloop.index > 3 %} class="news-extra"{% endif %}>{{ item.content | markdownify | strip | replace: '<p>', '' | replace: '</p>', '' }}</li>
       {% endfor %}
     </ul>
+    {% if news_items.size > 3 %}
+    <button type="button" class="news-toggle" onclick="var u=this.previousElementSibling; u.classList.toggle('expanded'); this.textContent=u.classList.contains('expanded')?'Show less ▴':'Show all presentations ▾';">Show all presentations &#9662;</button>
+    {% endif %}
   </article>
 </section>
