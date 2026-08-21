@@ -57,6 +57,10 @@
   authors: "Xi Wang, Tal Zussman, Yuang Xu, Bin Ma, Asaf Cidon, and Dong Li."
   details: 'ArXiv. <time>2026</time>'
   th: [T1, T2]
+- title: "SymProp: Scaling Sparse Symmetric Tucker Decomposition via Symmetry Propagation."
+  authors: "Zecheng Li, Shruti Shivakumar, Jiajia Li, and Ramakrishnan Kannan."
+  details: 'IEEE International Parallel and Distributed Processing Symposium (IPDPS). <time>2025</time>'
+  th: [T3]
 - title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs."
   authors: "Yanbo Zhao, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li."
   details: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). <time>2025</time>'
